@@ -2,7 +2,7 @@
  * @Author: Leo
  * @Date: 2022-08-01 17:23:33
  * @LastEditors: Leo
- * @LastEditTime: 2022-08-02 16:58:27
+ * @LastEditTime: 2022-08-02 17:48:04
  * @FilePath: \Accuenergy-Coding-Test\src\views\Home\Home.tsx
  * @Description:
  */
@@ -39,7 +39,7 @@ const Home: React.FC = () => {
     });
 
     useEffect(() => {
-        axios.get(`http://api.timezonedb.com/v2.1/get-time-zone?key=4J0W2IR0ZDA2&format=json&by=position&lat=${mapCenter.lat}&lng=${mapCenter.lng}`)
+        axios.get(`https://api.timezonedb.com/v2.1/get-time-zone?key=4J0W2IR0ZDA2&format=json&by=position&lat=${mapCenter.lat}&lng=${mapCenter.lng}`)
             .then((res: any) => {
                 setTimeZone(res.data.zoneName);
                 setLocalTime(res.data.formatted);
