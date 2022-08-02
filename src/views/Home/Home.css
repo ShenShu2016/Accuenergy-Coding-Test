@@ -1,0 +1,51 @@
+.home-container {
+    box-sizing: border-box;
+    padding: 0 5%;
+    width: 100%;
+    height: auto;
+}
+
+.home-main {
+    padding: 5% 0;
+    display: flex;
+}
+
+.left-container {
+    width: 60%;
+    margin-right: 24px;
+}
+
+.right-container {
+    width: 40%;
+    padding: 12px;
+    margin-left: 24px;
+    text-align: left;
+}
+
+.place-input {
+    width: 100%;
+    padding: 12px 0px;
+}
+
+.locate-container {
+    padding: 12px 0px;
+}
+
+.map-container {
+    padding: 12px 0px;
+    width: 100%;
+}
+
+.information-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.information-name > p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.table-container {
+    margin-top: 48px;
+}
